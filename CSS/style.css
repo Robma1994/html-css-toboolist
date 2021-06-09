@@ -5,32 +5,138 @@
     box-sizing: border-box;
 }
 /*Fine regole generali
-*/
+
+/*Regole utilizzate spesso nel corpo della pagina:*/
+
+/*Bottoni:*/
+.button-blue{
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    background-color: blue;
+    font-size: 10px;
+    color: white;
+}
+
+/*Titoli*/
+.titoli-main{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.elenco{
+    font-size: 18px;
+    color: gray;
+}
+.check-or-no{
+    margin-top: 5px;
+    margin-left: 0px;
+}
+/*Fine regole utilizzate spesso nel corpo della pagina*/
+
+
+
 body{
     background-color: rgb(246, 248, 249);
 }
 
-/*Header*/
+/*Intestazione*/
 .intestazione{
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: 100px;
 }
-.Logo{
+.contenuto-int{
+    margin: 0px 20px 20px 20px;
     padding: 20px 20px 20px 20px;
-    margin: 0px 10px 10px 10px;
 }
-/*Fine header*/
 
-/*Corpo della pagina*/
-.body-page{
+
+
+
+/*Fine Intestazione*/
+
+
+
+/*Corpo pagina: 
+Parte alta del corpo della pagina*/
+.one-body-page{
     margin: 35px auto;
-    border-radius: 2%;
+    margin-bottom: 4px;
+    border-radius: 5px 5px 0 0;
     width: 60%;
-    height: 700px;
+    height: 50px;
     background-color: rgb(255, 255, 255);    
 }
+.second-body-page{
+    margin: 0 auto;
+    border-radius: 0;
+    width: 60%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);    
+}
+.contenuto-body-page{
+    margin: auto;
+    width: 90%; 
+}
 
 
 
-/*Fine corpo della pagina*/
+#bottone-nav-uno{
+    background-color: blue ;
+    color: white;
+}
+
+/*Fine corpo pagina:
+Fine parte alta*/
+
+
+/*Corpo pagina: 
+Parte bassa del corpo della pagina*/
+
+.contenuto-second-body-page{
+    margin: auto;
+    padding-top: 50px;
+    width: 90%;
+}
+
+
+#visto{
+    border-radius: 50%;
+    padding: 2px;
+    background-color: yellow;
+    border-color: green;
+}
+
+.button-violet{
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    background-color: violet;
+    font-size: 10px;
+    color: white;
+}
+
+.button-green{
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    background-color: green;
+    font-size: 10px;
+    color: white;
+}
+
+.button-orange{
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    background-color: orange;
+    font-size: 10px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/*Fine corpo pagina:
+Fine parte bassa*/
